@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: whitesmoke;
+    font-size: 15px;font-family: 'Montserrat', sans-serif;;
+    background: url("завантаження.png");
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 770px;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.menu-itemn{
+    list-style-type: none;
+    margin: 0 15px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo, .header-menu{
+margin-top: 40px;
+}
+a{
+    color: whitesmoke;
+}
+.menu-list{
+    display: flex;
+}
+.header-intro{
+    margin-left: 400px;
+    margin-top: 257px;
+    font-size: 40;
+}
+.welkome{
+    margin-top: 37px;
+}
+button{
+    width: 175px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.text1{
+   font-size: 20px;
+   text-align: center;
+   padding: 15px 0 15px 0;
+   color: black;
+}
+.text2{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    color: black;
+}
+.itemn-text1{
+    font-size: 14px;
+    padding: 30px 0 30px;
+    color: black;
+}
+.itemn-text2{
+    font-size: 14px;
+    padding: 25px 0 90px 0;
+    color: black;
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px auto;
+}
+.main{
+    background-color: white;
+    height: 580px;
+    width: 100%;
+}
+.pol{
+    width: 55px;
+    display: flex;
+    margin-left: 935px;
+}
+h2{
+    text-align: center;
+}
+.item-head{
+    width: 90px;
+    height: 90px;
+    border: 2px solid cornsilk;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.item-head i{
+    color: rgb(165, 162, 161);
+    font-size: 50px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+ }
+ .main-line{
+        width: 50px;
+        height: 3px;
+        background-color: black;
+        margin: 30px auto;
+}
+.item:hover>.item-head i{
+        color: white;
+}
+.item:hover>.item-head{
+     background-color: tomato;
+}
+.footer{
+        width: 100%;
+        height: 308px;
+        background-color: tomato;
+}
+.contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 15px auto;
+}
+.twitter{
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        margin: 100px 15px auto;
+        border: 2px solid;
+        border-radius: 50%;
+        color: white;
+ }
+.telegram{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 15px auto;
+    border: 2px solid;
+    border-radius: 50%;
+    color: white;
+}
+.viber{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 15px auto;
+    border: 2px solid;
+    border-radius: 50%;
+    color: white;
+ }
+.instagram{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 15px auto;
+    border: 2px solid;
+    border-radius: 50%;
+    color: white;
+}
+.foot-text{
+    height: 11px;
+    margin-left: 664px;
+    width: 272px;
+    margin-top: 100px;
+}
+p{
+    color: #000;
+}
+h1{
+    color: black;
+}

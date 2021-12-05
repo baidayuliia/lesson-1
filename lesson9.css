@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+}
+.sdf{
+    height: 50px;
+}
+.first:first-child{
+    color: blueviolet;
+}
+.last:last-child{
+    color: brown;
+}
+.only:only-child{
+    color: coral;
+}
+.h4:first-of-type{
+color: darkblue;
+}
+.only-type:only-of-type{
+    color: darkgreen;
+}
+.last-type:last-of-type{
+    color: darkseagreen;
+}
+.h2:nth-last-child(2n){
+color: deeppink;
+}
+.h6:nth-last-of-type(3n){
+    color: gold;
+}
+.visited:visited{
+    color: grey;
+}
+.link:link{
+    color: hotpink;
+}
+.hover:hover{
+    color: khaki;
+}
+.active:active{
+    color: rgb(93, 93, 212);
+}
+.focus:focus{
+    color: rgb(74, 166, 197);
+}
